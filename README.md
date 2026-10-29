@@ -1,21 +1,45 @@
-# 个人维护的组件库Recipe Design
+# Recipe Design
 
-### 预计完成的组件
+An early-stage **React + TypeScript + Sass** practice project for exploring reusable front-end UI components and their styling.
 
-🔘 通用型组件：Button 按钮、Icon 图标
-🗂️ 导航型组件：Menu 导航菜单
-🪄 数据录入型组件：AutoComplete 自动完成、Cascader 级联选择、CheckBox 多选框、DatePicker 日期选择器、RangeDatePicker 日期范围选择器、Form 表单、Input 输入框、InputNumber 数字输入框、RadioGroup 单选按钮组、Select 选择器、Switch 开关、Upload 上传
-📆 数据展示型组件：Calendar 日历、Tabs 标签页
-📈 反馈型组件：Progress 进度条
-📌 其他组件：Affix 图钉、Transition、Grid栅格
+## Project goal
 
-### 目前进度
+The original plan was to build a small component library covering common controls and layout patterns, such as buttons, icons, navigation, form inputs, date pickers, tabs, progress indicators, and grid layout.
 
-2.24-设计样式，使之生效
-2.25-Button组件
-最基本常用的交互性组件
-不同type 不同size 状态disabled
+**Status:** this is an unfinished learning project, not a complete component library. The original progress notes record initial styling and Button component work; the other items below are ideas from the original plan and should not be assumed to be implemented.
 
-2.26-Button组件
+## Tech stack
 
-组件样式修改
+- React 18
+- TypeScript
+- Sass
+- Create React App (`react-scripts`)
+
+## Run locally
+
+Requirements: Node.js and npm.
+
+```bash
+npm install
+npm start
+```
+
+Create a production build with:
+
+```bash
+npm run build
+```
+
+## Planned component areas
+
+- **Basic:** Button, Icon
+- **Navigation:** Menu
+- **Form input:** AutoComplete, Cascader, Checkbox, DatePicker, Form, Input, InputNumber, RadioGroup, Select, Switch, Upload
+- **Display:** Calendar, Tabs
+- **Feedback and layout:** Progress, Affix, Transition, Grid
+
+These lists preserve the project's original learning plan; they are not a feature-completeness claim.
+
+## Learning note
+
+This repository is kept as a record of earlier front-end practice. It is not currently positioned as the main portfolio project.
